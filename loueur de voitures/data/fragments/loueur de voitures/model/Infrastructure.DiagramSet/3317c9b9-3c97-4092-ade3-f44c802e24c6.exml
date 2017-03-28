@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="loueur de voitures" version="4">
+  <OBJECT>
+    <ID name="loueur de voitures" mc="Infrastructure.DiagramSet" uid="3317c9b9-3c97-4092-ade3-f44c802e24c6"/>
+    <PID name="loueur de voitures" mc="Standard.Project" uid="d39d64d6-c270-4996-a86f-50f95efaf369"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[loueur de voitures]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
