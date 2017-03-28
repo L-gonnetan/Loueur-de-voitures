@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="loueur de voitures" version="4">
+  <OBJECT>
+    <ID name="loueur de voitures" mc="Standard.Package" uid="4b98a704-5922-420b-86aa-8bf6aa7739a1"/>
+    <PID name="loueur de voitures" mc="Standard.Project" uid="d39d64d6-c270-4996-a86f-50f95efaf369"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[loueur de voitures]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="agent" mc="Standard.Actor" uid="a7a5b5ed-a3cf-41a7-9c0d-3bc5a010ce95"/>
+        <COMPID name="employé" mc="Standard.Actor" uid="ee49d4f8-8b33-4edf-964d-810ba375b026"/>
+        <COMPID name="technicien" mc="Standard.Actor" uid="f2d404f7-3ff6-48a7-9f0f-5849e3479103"/>
+        <COMPID name="Décrire l'état de la voiture" mc="Standard.UseCase" uid="6cc751b8-e29e-4769-95bf-c48c88d623d2"/>
+        <COMPID name="Changer l'attribut &quot;état de la voiture&quot;" mc="Standard.UseCase" uid="6ad6c1f4-088a-42bf-b1b7-29b8f00c99f9"/>
+        <COMPID name="Transférer voiture au stock" mc="Standard.UseCase" uid="767096fe-7e1d-43c4-8ad3-dc58f8104914"/>
+        <COMPID name="Calculer des statistiques" mc="Standard.UseCase" uid="11ed9c66-87eb-4991-ab9d-a56a092767dc"/>
+        <COMPID name="Voir les stocks de voitures" mc="Standard.UseCase" uid="8dd8e623-d3ec-48c1-b7b0-df7e3cd3576e"/>
+        <COMPID name="Gérer budget" mc="Standard.UseCase" uid="fd99d8a4-e436-4209-b022-53e99c927917"/>
+        <COMPID name="Rééquilibrer stocks" mc="Standard.UseCase" uid="811073f9-188d-4577-b2a6-9d5cdc09084f"/>
+        <COMPID name="Voir budget" mc="Standard.UseCase" uid="69d2441b-dbf7-4ec6-bb4f-1bb27893443a"/>
+        <COMPID name="Demander crédit" mc="Standard.UseCase" uid="d43d9f15-edf3-4691-91a5-c9b3745c0970"/>
+        <COMPID name="Acheter" mc="Standard.UseCase" uid="df92feb8-273c-4ffb-9b53-18db64e747e6"/>
+        <COMPID name="Vendre" mc="Standard.UseCase" uid="6ce24ec6-b3d6-42e9-a9bb-1ef3c3b75e8d"/>
+        <COMPID name="Transférer" mc="Standard.UseCase" uid="8ad93361-b13f-47e3-b5a6-c63fad77b151"/>
+        <COMPID name="Voir les voitures de son agences" mc="Standard.UseCase" uid="32c2ca5d-ef98-40c2-bc76-6f7cdcecdde5"/>
+        <COMPID name="Traiter une réservation" mc="Standard.UseCase" uid="866c9f11-54f5-45e0-98a7-893afbbaa822"/>
+        <COMPID name="Stocker info" mc="Standard.UseCase" uid="3104d715-7d01-49bf-8dd7-b4d977df5408"/>
+        <COMPID name="Louer voitures" mc="Standard.UseCase" uid="f92a237e-9130-4710-9e4d-1ad7c44bd735"/>
+        <COMPID name="Récupérer caution" mc="Standard.UseCase" uid="50ac54f9-a840-41c5-976f-dcb46ebd4c28"/>
+        <COMPID name="Vérifier voiture après location" mc="Standard.UseCase" uid="e357e27f-0d6a-4fe0-92f6-d9ab2242d152"/>
+        <COMPID name="Faire payer" mc="Standard.UseCase" uid="97afb5aa-6835-49ce-97b7-9957148024b1"/>
+        <COMPID name="Faire réparer la voiture" mc="Standard.UseCase" uid="47af75c1-7196-415b-8309-c37b91a24ca8"/>
+        <COMPID name="Fidéliser" mc="Standard.UseCase" uid="5fe7a582-0593-460e-bf64-83d541643652"/>
+        <COMPID name="Mettre à jour les statistiques" mc="Standard.UseCase" uid="b76787fe-1bd1-4562-a77d-d8c44d496b2c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="loueur de voitures Use Case diagram" mc="Standard.UseCaseDiagram" uid="94cdae9c-12a0-4085-ad8f-44794bb62f3e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
