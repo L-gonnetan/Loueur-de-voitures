@@ -21,7 +21,14 @@ def executer_requete(cur, req, variables = ()) :
 
     ARG :
         + cur [curseur] : Curseur de la base de données
-        + req [requête] : Requête à exécuter """
+        + req [requête] : Requête à exécuter
+
+    EFFET : Mettre à jour le curseur
+
+    EXCEPT :
+        - Requête invalide
+        - Données incompatibles avec la bdd
+        - Clé déjà existante"""
 
     try :
         cur.execute(req, variables)
@@ -43,7 +50,11 @@ def valider_modifs(conn) :
 
 
 def fermer_connexion(cur, conn) :
-    """ Fermeture de la connexion """
+    """ Fermeture de la connexion
+
+    ARG :
+        + cur [curseur] : curseur de la base de données
+        + conn [connexion] : connexion vers la base de données """
 
     cur.close()
     conn.close()
