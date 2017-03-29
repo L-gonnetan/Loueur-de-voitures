@@ -32,7 +32,7 @@ def executer_requete(cur, req, variables = ()) :
 
     try :
         cur.execute(req, variables)
-        ihm.afficher("Exécution de {0}".format(req))
+        print("Exécution de {0}".format(req))
 
     except sql.OperationalError : print("\tERREUR {0} non conforme".format(req))
     except sql.DataError : print("\tERREUR Données invalides")
