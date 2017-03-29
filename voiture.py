@@ -4,6 +4,10 @@ ENUM_ETAT_LOCATION = ["louée", "disponible", "au garage"]
 class Voiture(object) :
     def __init__(self, marque, modele, immatriculation, client = None,
                km = 0, etat = 1) :
+        """ Créer une voiture
+            ARG :
+                ... """
+
         self._marq = marque
         self._modl = modele
         self._imml = immatriculation
