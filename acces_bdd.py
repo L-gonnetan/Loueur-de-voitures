@@ -1,5 +1,5 @@
 import sqlite3 as sql
-import ihm.console as ihm
+
 
 
 def ouvrir_connexion(db_name) :
@@ -34,9 +34,9 @@ def executer_requete(cur, req, variables = ()) :
         cur.execute(req, variables)
         ihm.afficher("Exécution de {0}".format(req))
 
-    except sql.OperationalError : ihm.afficher("\tERREUR {0} non conforme".format(req))
-    except sql.DataError : ihm.afficher("\tERREUR Données invalides")
-    except sql.IntegrityError : ihm.afficher("\tERREUR Clé déjà existante ou fausse")
+    except sql.OperationalError : print("\tERREUR {0} non conforme".format(req))
+    except sql.DataError : print("\tERREUR Données invalides")
+    except sql.IntegrityError : print("\tERREUR Clé déjà existante ou fausse")
 
 
 def valider_modifs(conn) :
